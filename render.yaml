@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: HUNTER-XMD
+    name: whatsapp xmd
     env: node
     plan: free
-    repo: https://github.com/Obedweb/Hunter-Xmd1
+    repo: https://github.com/whatsapp-bot254/whatsapp-xmd
     branch: main
     buildCommand: npm install
     startCommand: npm start
