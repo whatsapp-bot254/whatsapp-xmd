@@ -1,6 +1,6 @@
-name: hunter-xmd
+name: whatsapp xmd
 services:
-  - name: hunter-xmd-service
+  - name: whatsapp-xmd-service
     type: web
     ports:
       - 5000
