@@ -1,7 +1,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=whatsapp-xmd" alt="Typing SVG" /></a>
   
 <p align="center">
-  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-WHATSAPP%20XMD-FF00FF.svg?style=big-square&logo=github" /></a>
+  <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-WHATSAPP%20XMD:MADE+BY+SIR+BRAVIN-FF00FF.svg?style=big-square&logo=github" /></a>
 </p>
 
 <div align="center">
