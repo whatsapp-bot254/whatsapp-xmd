@@ -8,10 +8,7 @@
 
 </div>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{sir-bravin}/count.svg" alt="bravin :: Visitor's Count" old_src="https://profile-counter.glitch.me/{bravin}/count.svg" /></p>
-
-
-
+ <p align="center"><img src="https://profile-counter.glitch.me/{sir-bravin}/count.svg" " 
 
 ### 1. FORK THIS REPO
 
