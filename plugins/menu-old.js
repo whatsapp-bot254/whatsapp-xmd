@@ -14,7 +14,7 @@ cmd({
 },
 async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
-        const dec = `╭━━━〔 *${config.BOT_NAME} Main Menu* 〕━━━╮
+        const dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━╮
 ┃ ∆ *𝙊𝙣𝙬𝙚𝙧:* ${config.OWNER_NAME}
 ┃ ∆ *𝙈𝙤𝙙𝙚:* ${config.MODE}
 ┃ ∆ *𝙥𝙡𝙖𝙩𝙛𝙤𝙧𝙢:* vercel
@@ -773,7 +773,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• gptmini
 ┃◈┃• gpt
 ┃◈┃• meta
-┃◈┃• blackbox
+┃◈┃• blackbox 
 ┃◈┃• luma
 ┃◈┃• dj 
 ┃◈┃• criss
