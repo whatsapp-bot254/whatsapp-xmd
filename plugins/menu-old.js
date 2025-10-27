@@ -15,38 +15,39 @@ cmd({
 async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
         const dec = `╭━━━〔 *${config.BOT_NAME} Main Menu* 〕━━━╮
-┃ ♦️ *𝙊𝙣𝙬𝙚𝙧:* ${config.OWNER_NAME}
-┃ ♦️ *𝙈𝙤𝙙𝙚:* ${config.MODE}
-┃ ♦️ *𝙥𝙡𝙖𝙩𝙛𝙤𝙧𝙢:* vercel
-┃ ♦️ *𝙏𝙮𝙥𝙚:* Node.Js (Multi Device)
-┃ ♦️ *𝙋𝙧𝙚𝙛𝙞𝙭:* ${config.PREFIX}
-┃ ♦️ *𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 5.0.0 Pro
+┃ ∆ *𝙊𝙣𝙬𝙚𝙧:* ${config.OWNER_NAME}
+┃ ∆ *𝙈𝙤𝙙𝙚:* ${config.MODE}
+┃ ∆ *𝙥𝙡𝙖𝙩𝙛𝙤𝙧𝙢:* vercel
+┃ ∆ *𝙏𝙮𝙥𝙚:* Node.Js (Multi Device)
+┃ ∆ *𝙋𝙧𝙚𝙛𝙞𝙭:* ${config.PREFIX}
+┃ ∆ *𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 5.0.0 Pro
 ╰━━━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━〔 🧩 *Command Categories* 〕━━╮
-┃ ♦️ Quranmenu
-┃ ♦️ Prayertime
-┃ ♦️ Aimenu
-┃ ♦️ Anmiemenu
-┃ ♦️ Reactions
-┃ ♦️ Convertmenu
-┃ ♦️ Funmenu
-┃ ♦️ Dlmenu
-┃ ♦️ Listcmd
-┃ ♦️ Mainmenu
-┃ ♦️ Groupmenu
-┃ ♦️ Allmenu
-┃ ♦️ Ownermenu
-┃ ♦️ Othermenu
-┃ ♦️ Logo
-┃ ♦️ Repo
+┃ ∆ Quranmenu
+┃ ∆ Prayertime
+┃ ∆ Aimenu
+┃ ∆ Anmiemenu
+┃ ∆ Reactions
+┃ ∆ Convertmenu
+┃ ∆ Funmenu
+┃ ∆ Dlmenu
+┃ ∆ Listcmd
+┃ ∆ Mainmenu
+┃ ∆ Groupmenu
+┃ ∆ Allmenu
+┃ ∆ Ownermenu
+┃ ∆ Othermenu
+┃ ∆ Logo
+┃ ∆ Repo
+| ∆ bravin 
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 > ${config.DESCRIPTION}`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/cz0181.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -54,7 +55,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: 'ʜᴜɴᴛᴇʀ xᴍᴅ',
+                        newsletterName: 'sir bravin',
                         serverMessageId: 143
                     }
                 }
@@ -124,7 +125,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/cz0181.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -132,7 +133,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -190,7 +191,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: ` https://files.catbox.moe/cz0181.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -198,7 +199,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -273,7 +274,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/j67u2n.jpg` },
+                image: { url: `https://files.catbox.moe/cz0181.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -281,7 +282,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -351,7 +352,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/cz0181.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -359,7 +360,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -418,7 +419,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/cz0181.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -426,7 +427,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -489,7 +490,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/cz0181.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -497,7 +498,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -541,7 +542,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/huqk1i.jpg  ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -549,7 +550,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -600,7 +601,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/huqk1i.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -608,7 +609,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -661,7 +662,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/huqk1i.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -669,7 +670,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -730,7 +731,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/huqk1i.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -738,7 +739,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
@@ -789,7 +790,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751659999/url.crissvevo.co.tz/%E1%B4%8F%CA%99%E1%B4%87%E1%B4%85%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C1_pl1cki.jpg` },
+                image: { url: `https://files.catbox.moe/huqk1i.jpg ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -797,7 +798,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363416335506023@newsletter',
-                        newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅ",
+                        newsletterName: "sir bravin",
                         serverMessageId: 143
                     }
                 }
