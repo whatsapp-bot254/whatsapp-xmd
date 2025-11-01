@@ -9,7 +9,7 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "⚡",
+    react: "💕",
     filename: __filename
 },
 async (conn, mek, m, { from, sender, pushname, reply }) => {
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/cz0181.jpg` },
+                image: { url: `https://files.catbox.moe/4n1tap.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -125,7 +125,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/cz0181.jpg ` },
+                image: { url: `https://files.catbox.moe/4n1tap.jpg  ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -191,7 +191,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: ` https://files.catbox.moe/cz0181.jpg ` },
+                image: { url: `https://files.catbox.moe/4n1tap.jpg  ` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
