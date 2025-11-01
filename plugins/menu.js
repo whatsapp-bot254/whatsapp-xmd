@@ -6,7 +6,7 @@ const { runtime } = require('../lib/functions');
 cmd({
     pattern: "menu2",
     desc: "Show interactive menu system",
-    category: "menu",
+    category: "bravin",
     react: "⚡",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
