@@ -55,9 +55,9 @@ const emojiByCategory = {
 
 cmd({
   pattern: 'men',
-  alias: ['allmenu'],
+  alias: ['allmenu2'],
   desc: 'Show all bot commands',
-  category: 'menu',
+  category: 'menu3',
   react: '👌',
   filename: __filename
 }, async (conn, mek, m, { from, sender, reply }) => {
@@ -76,14 +76,14 @@ cmd({
     };
 
     let menu = `
-*┏────〘 ᴍᴇʀᴄᴇᴅᴇs 〙───⊷*
+*┏────〘 whatsapp bot〙───⊷*
 *┃ ᴜꜱᴇʀ : @${sender.split("@")[0]}*
 *┃ ʀᴜɴᴛɪᴍᴇ : ${uptime()}*
 *┃ ᴍᴏᴅᴇ : ${config.MODE}*
 *┃ ᴘʀᴇғɪx : 「 ${config.PREFIX}」* 
 *┃ ᴏᴡɴᴇʀ : ${config.OWNER_NAME}*
 *┃ ᴘʟᴜɢɪɴꜱ : 『 ${commands.length} 』*
-*┃ ᴅᴇᴠ : ᴍᴀʀɪsᴇʟ*
+*┃ ᴅᴇᴠ : bravin*
 *┃ ᴠᴇʀꜱɪᴏɴ : 2.0.0*
 *┗──────────────⊷*`;
 
@@ -125,7 +125,7 @@ cmd({
     await conn.sendMessage(
       from,
       {
-        image: { url: config.MENU_IMAGE_URL || 'https://url.bwmxmd.online/Adams.zjrmnw18.jpeg' },
+        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/4n1tap.jpg' },
         caption: menu,
         contextInfo: imageContextInfo
       },
