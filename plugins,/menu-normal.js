@@ -8,7 +8,7 @@ const fs = require('fs');
 cmd({
     pattern: "menu3",
     desc: "menu the bot",
-    category: "menu2",
+    category: "menu4",
     react: "⚡",
     filename: __filename
 },
